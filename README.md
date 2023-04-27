@@ -9,7 +9,7 @@
 <hr>
 <!-- ABOUT THE APPLICATION -->
 <h2 align="center">About The Application </h2>
-A basic typescript program reads and parses customer data. It also calculates the distances based on the coordinates provided
+This basic typescript program reads and parses customer data. It also calculates the distances based on the coordinates provided
 and finds customers within the radius for invitation. This is later used for validation and messaging.
 <hr>
 <h2 align="center">Build With </h2>
