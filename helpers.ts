@@ -1,5 +1,6 @@
-import fs from 'fs';
-import amqp, { Channel } from 'amqplib';
+import * as fs from 'fs';
+
+import amqp from 'amqplib';
 
 
 interface Customer {

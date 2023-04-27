@@ -1,5 +1,6 @@
 import { calculateDistance, parseCustomerData, findCustomersWithinRadius, writeToMessageBroker } from './helpers'; 
-import fs from 'fs';
+import * as fs from 'fs';
+
 
 // Customer type
 interface Customer {
@@ -14,7 +15,7 @@ type Coordinates = {
 };
   
 //Read the Customer data and parse it
-const customersData = fs.readFileSync('customers.txt', 'utf-8'); // Replace 'customers.txt' with the path to your customer data file
+const customersData = fs.readFileSync('./customers.txt', 'utf-8'); // Replace 'customers.txt' with the path to your customer data file
 const customers = parseCustomerData(customersData);
 
 //Set Coordinates of FINTECH CO
